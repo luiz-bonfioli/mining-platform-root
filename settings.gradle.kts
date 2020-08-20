@@ -3,6 +3,9 @@ rootProject.name = "mining-platform-root"
 include(":mining-platform-core")
 project(":mining-platform-core").projectDir = file("../mining-platform-core")
 
+include(":mining-platform-protobuffers")
+project(":mining-platform-protobuffers").projectDir = file("../mining-platform-protobuffers")
+
 include(":mining-platform-security")
 project(":mining-platform-security").projectDir = file("../mining-platform-security")
 
